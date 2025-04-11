@@ -1,0 +1,133 @@
+PARADIGMAS DE PROGRAMACIÓN
+
+Los paradigmas de programación son diferentes formas de programar, de buscar solución a problemas pero por distintos caminos y entonces ver cual llega a la solución más rápido o más eficiente. En los cuales hay 4 paradigmas, los cuales son: Imperativo, orientado a objetos, funcional y lógico.
+Imperativo: Está diseñado para seguir un orden, de principio a fin.
+Orientado a objetos: Al contrario del imperativo, este no tiene una secuencia fija, ya qué se analizan objetos los cuales tienen características y funciones.
+Funcional: Su funcionamiento es más directo, ya que, cada identidad o función realiza una sola tarea.
+Lógico: El funcionamiento de este es más a lo lógico, válgase la redundancia, sigue observaciones que ya habíamos hecho y compara con otros nuevos, por ejemplo: las aves vuelan menos los pingüinos; Piolín es un ave y no es un pingüino; ¿Piolín vuela?; 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Paradigmas de programación.
+
+Un paradigma de programación es una manera de pensar y organizar el código para resolver problemas. Es como un estilo o una filosofía que te guía sobre cómo escribir tu programa.
+
+Cada paradigma tiene sus propias reglas, ideas principales y forma de ver las cosas.
+
+Los principales paradigmas de programación son:
+
+
+      Paradigma	                            ¿Cómo piensa?	                                     Ejemplo de idea clave
+
+
+
+      Imperativo	          Le dices paso a paso lo que tiene que hacer	               "Haz esto, luego esto, luego esto"
+
+  Orientado a Objetos	          Piensa en objetos que tienen datos y acciones	               "Tengo un Auto que puede arrancar y frenar"
+
+      Funcional	                  Usa funciones puras (sin cambiar datos externos)	       "Transforma este dato y devuelve otro nuevo"
+
+       Lógico	                  Especificas reglas y condiciones, no pasos	               "El abuelo es quien es padre del padre"
+
+
+¿Por qué existen varios paradigmas?
+
+Porque no todos los problemas se resuelven bien de la misma manera. Algunos paradigmas son mejores para ciertos tipos de problemas.
+
+Por ejemplo:
+
+-Un videojuego → Orientado a Objetos
+
+-Un sistema de cálculos matemáticos → Funcional
+
+-Un programa que responde preguntas → Lógico
+
+ChatGPT. (2025, 11 de abril). ¿Qué son los paradigmas de programación? Respuesta generada por inteligencia artificial de OpenAI. Recuperado de https://chat.openai.com/
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+¿Qué son los paradigmas de programación?
+
+Desde el punto de vista de Martin, los paradigmas son restricciones a determinadas construcciones del lenguaje que obligar el uso de un determinado estilo. Por ejemplo, la programación estructurada o procedimental prohíbe saltar a través del código del programa, mientras que la programación funcional prohíbe la modificación directa de la memoria de la computadora. 
+
+Los paradigmas de programación definen estándares para escribir código. Al cambiar a otro idioma que corresponda a un paradigma familiar, al especialista le resultará más fácil superar la “barrera del lenguaje”. 
+
+
+Los dos paradigmas principales, imperativo y declarativo, incluyen otros. Por ejemplo, el paradigma de programación imperativa incluye la programación estructurada y orientada a objetos (OOP), mientras que el paradigma declarativo incluye la programación funcional y lógica. 
+
+Paradigma de programación imperativa
+El paradigma imperativo es el más simple y más comúnmente utilizado. Su principal función es la ejecución secuencial de acciones.
+
+Decenas de lenguajes se adhieren al paradigma imperativo y tiene muchas variantes. Antes, la mayoría de los programadores escribían en lenguajes procedimentales, pero hoy en día ese tipo de programación se considera obsoleta. Se utiliza sólo si por alguna razón es imposible utilizar la programación orientada a objetos, que ocupa el nicho principal en el universo imperativo y es de los paradigmas modernos. 
+
+Paradigma de programación declarativa
+El paradigma declarativo requiere que el programador responda a la pregunta “¿qué debería pasar?”, antes de “¿qué debería hacerse?”. Lo que busca la computadora es una manera de obtener el resultado requerido. 
+
+Si utilizamos una sopa como ejemplo, es igual a decir que la forma más cómoda de hacer las cosas sería pidiéndole al ordenador que la prepare, y esperar a que lo haga todo por si solo. Pero hasta este momento las computadoras son incapaces de hacer eso, de manera que necesitamos dar una explicación. 
+
+En la programación declarativa, si defines el resultado de manera demasiado vaga, la computadora podría realizar algo incorrecto. Por ejemplo, si en lugar de dar la descripción completa del tipo de sopa que quiere preparar, el desarrollador simplemente dijo que se necesitaba sopa, lo que la computadora hará será revisar todos los elementos existentes y mezclarlos. 
+
+Desde el punto de vista del paradigma declarativo, esto sería un enfoque correcto, porque si la computadora en algún punto acertara al resultado que esperaba el desarrollador sólo por seleccionar una y otra vez ingredientes al azar, al final ayudó a lograr el resultado deseado; sin embargo, no es nada eficaz, porque objetivamente se desperdiciarían muchos ingredientes, tiempo y dinero. 
+
+Programación estructurada 
+C, Pascal, COBOL, ALGOL, BASIC y Fortran son ejemplos de lenguajes de programación estructurada. 
+
+La programación imperativa se desarrolló como procedimental, donde el concepto principal es función. Una función o procedimiento es una secuencia de acciones que se escriben y nombran. Por ejemplo, las instrucciones para montar un mueble o una receta de sopa son funciones. 
+
+De modo que procedimiento y función son el mismo concepto, pero la programación estructurada y funcional son diferentes. El primero se refiere al paradigma imperativo y el segundo al declarativo. 
+
+Pero volvamos a qué es programación estructurada. Cuando un cliente llega a un restaurante y abre la carta, cada elemento tiene una función específica. Si el cliente llama al camarero y le dice lo que quiere ordenar usando el nombre del platillo, no pensará en las acciones específicas que deberán realizar el camarero y el cocinero para entregar su platillo, pues lo que a él le importa es el resultado. 
+
+De la misma forma, al llamar a una función —que en el ejemplo anterior sería al ordenar—, el programador no necesita pensar qué acciones específicas realizará el programa para obtener el resultado; basta con saber el nombre de la función y poder acceder a ella. 
+
+Hubo un tiempo en que la programación procedimental hizo una revolución y desplazó a lenguajes como Assembler, pero ahora se ha retirado para dar paso a la programación orientada a objetos. 
+
+Programación orientada a objetos
+Java, Python, C++, Ruby, C#, Objective-C y PHP son ejemplos de lenguajes de programación orientada a objetos. En este caso, los más populares son Java y Python, el primero porque utiliza más entornos web, y el segundo por su buena legibilidad y facilidad de aprendizaje. 
+
+En el paradigma de programación orientada a objetos aparecen objetos que por sí mismos realizan funciones. Aunque en realidad, todas las acciones en una computadora las realiza el procesador, dentro del enfoque orientado a objetos, los objetos actúan como entidades que pueden realizar operaciones por sí mismas. 
+
+La programación orientada a objetos permite a los programadores regular las conexiones entre partes del programa que son responsables de diferentes acciones. Debido a esto, el programa es más fácil de compartir entre desarrolladores, más fácil de mantener y más fácil de probar automáticamente. 
+
+
+El paradigma de programación orientado a objetos es el más simple y el más rico en funciones de los paradigmas de programación modernos, lo que lo hace muy popular entre los programadores.
+
+Programación funcional
+Haskell, Erlang, Scala, F#, OCaml, ELM y Lisp son ejemplos de lenguajes de programación funcional. 
+
+El paradigma declarativo moderno se refiere principalmente a la programación funcional. En un enfoque funcional estricto, todas las funciones se consideran puras y no tienen efectos secundarios.
+
+Imaginemos ahora que un cliente pide cien veces la misma sopa; el camarero le traerá cien veces el mismo platillo. El resultado de la función siempre será el mismo. Pero si esto pasara en un mismo día en el mismo restaurante, es probable que a la décima vez que el cliente ordene la sopa, al cocinero se le hayan acabado muchos de los ingredientes que lleva esa sopa. 
+
+En un restaurante real, eso resultaría en un efecto de sustitución: en lugar de usar el 20% de un ingrediente, digamos que ahora se cambiará por el 10%, o que un ingrediente se sustituyó completamente por otro. Aunque esto crearía un efecto secundario, es decir que al modificar la receta, probablemente la sopa ya no sabrá exactamente igual para el cliente. 
+
+En el mundo de la programación, un efecto secundario se presenta cuando algo ha cambiado en el sistema al momento de ejecutar la función, y que el usuario tal vez no sepa. La desventaja de los efectos secundarios es que son difíciles de explicar. 
+
+En los lenguajes funcionales no hay efectos secundarios, por lo que no existe el concepto de cambiar objetos. La función no cambia el objeto antiguo, sino que devuelve uno nuevo. Es como comprar un calendario nuevo cada día en lugar de solo arrancar la página. En la mayoría de los casos, dicho desperdicio puede ser optimizado por un traductor, una aplicación que decidirá exactamente cómo ejecutar el código. 
+
+Algunos ejemplos de uso
+1. Utilizar el paradigma de programación estructurada para escribir código de microchip
+Por ejemplo, si tienes un procesador que es demasiado específico para desarrollar un compilador de lenguaje complejo orientado a objetos, es posible que las capacidades técnicas del chip no sean suficientes para ejecutar programas escritos en lenguajes modernos. 
+
+2. Paradigma orientado a objetos
+Todo el mundo ha utilizado programas escritos empleando el paradigma orientado a objetos. La mayoría de las aplicaciones modernas para computadoras y teléfonos inteligentes, servicios populares de Internet, televisores inteligentes y enrutadores están escritos en un lenguaje orientado a objetos. 
+
+3. El paradigma declarativo es excelente para describir la apariencia de los sitios web
+Hoy en día se utiliza para ello la programación declarativa en el lenguaje CSS. Se recomienda usarlo para configurar la fuente del texto, el color de fondo y el tamaño de la imagen.
+
+4. El paradigma de programación funcional se utiliza en criptomonedas y blockchain
+Etapas son áreas donde la confiabilidad está a la vanguardia; al ser nuevas, están abiertas a tecnologías experimentales. Otros lenguajes funcionales desdibujan la línea entre matemáticas y programación, pero en el centro de esto está a correspondencia Curry-Howard, un hecho matemático que establece que un programa de lenguaje funcional y una prueba son la misma cosa. Se puede utilizar para una verificación formal, es decir, una verificación automática estricta de la corrección de los programas. 
+
+Casi todos los paradigmas se utilizan para programas industriales de uso general; por ejemplo, editores de texto y gráficos, hojas de cálculo, aplicaciones telefónicas y servicios web. También hay los que se utilizan en lenguajes de programación destinados a tareas muy específicas, por ejemplo, los desarrolladores que utilizan el paradigma lógico para resolver ecuaciones matemáticas y el hecho de que el lenguaje Prolog puede ayudar a resolver Sudoku (porque la solución de este rompecabezas se puede formular como un conjunto de restricciones). 
+
+Como aprendices, necesitamos sacar lo mejor de cada paradigma. Lo principal es recordar que el resultado de un programa no es solo lo que hace, sino que el código esté escrito correctamente. 
+
+En el curso de desarrollo web de TripleTen introduce a los estudiantes a los conceptos básicos de programación, para que aprendan a escribir programas simples y complejos siguiendo ciertos paradigmas de programación. Inscríbete hoy y sé parte de los desarrolladores que están revolucionando el mundo digital.
+
+TripleTen. (2023). ¿Qué son los paradigmas de programación? https://tripleten.mx/blog/que-son-los-paradigmas-de-programacion/
+
+
+
+
+
+
