@@ -1,4 +1,4 @@
-public class main {
+public class Main {
     public static void main (String[] args) {
 
         Edificio ed = new Edificio(9.5, 4, 10, "Calle Nuevo Léon", true, "Blanco", "Azul", 20);

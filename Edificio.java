@@ -1,12 +1,12 @@
 public class Edificio {
-    double altura;
-    int nivel;
-    double ancho;
-    String ubicacion;
-    boolean cuentaConLuz;
-    String colorExt;
-    String colorInt;
-    int puertas;
+    private double altura;
+    private int nivel;
+    private double ancho;
+    private String ubicacion;
+    private boolean cuentaConLuz;
+    private String colorExt;
+    private String colorInt;
+    private int puertas;
 
     Edificio(double alt, int niv, double anc, String ubi, boolean cCL, String colExt, String colInt, int puert){
         this.altura = alt;
@@ -18,6 +18,58 @@ public class Edificio {
         this.colorInt = colInt;
         this.puertas = puert;
 
+    }
+
+    public double getAltura(){
+        return this.altura;
+        
+    }
+    public int getNivel(){
+        return this.nivel;
+    }
+    public double getAncho(){
+        return this.ancho;
+    }
+    public String getUbicacion(){
+        return this.ubicacion;
+    } 
+    public boolean getCuentaConLuz(){
+        return this.cuentaConLuz;
+    }
+    public String getColorExt(){
+        return this.colorExt;
+    }
+    public String getColorInt(){
+        return this.colorInt;
+    }
+    public int getPuertas(){
+        return this.puertas;
+    }
+
+    public void setNivel(int nivel){
+        this.nivel = nivel;
+    }
+
+    public void setAltura(double altura){
+        this.altura = altura;
+    }
+    public void setAncho(double ancho){
+        this.ancho = ancho;
+    }
+    public void setUbicacion(String ubicacion){
+        this.ubicacion = ubicacion;
+    }
+    public void setCuentaConLuz(boolean cuentaConLuz){
+        this.cuentaConLuz = cuentaConLuz;
+    }
+    public void setColorExt(String colorExt){
+        this.colorExt = colorExt;
+    }
+    public void setColorInt(String colorInt){
+        this.colorInt = colorInt;
+    }
+    public void setPuertas(int puertas){
+        this.puertas = puertas;
     }
 
     void almacenar(){
