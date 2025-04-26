@@ -7,7 +7,7 @@ public class Main {
         ed.resguardar();
         ed.operar();
 
-        FordRangerRaptor frr = new FordRangerRaptor(5.20, 180, 600, 405, "negro", 5, true, "Neumatico de repuesto");
+        FordRangerRaptor frr = new FordRangerRaptor(5.20, 180, 600, 405, "negro", 5, "Neumatico de repuesto", 120, "Gasolina", 60);
 
         frr.acelerar();
         frr.saltar();
@@ -15,13 +15,19 @@ public class Main {
         frr.recreacion();
         frr.transporte();
 
-        MaquinariaPesada maqPes = new MaquinariaPesada("excavadora", "amarilla", "Cat 320", 3.20, 9.5, 3.10, true, false, 7.45, 22, 157, 390);
+        MaquinariaPesada maqPes = new MaquinariaPesada("excavadora", "amarilla", "Cat 320", 3.20, 9.5, 3.10, true, false, 7.45, 22, 157);
 
         maqPes.empujar();
         maqPes.excavar();
         maqPes.nivelar();
         maqPes.demoler();
         maqPes.arrastrar();
+
+
+
+        frr.tanqueGas.setNivel(100);
+        int estadoTan = frr.tanqueGas.getNivel();
+        System.out.println("Tiene " + estadoTan + " litros de gasolina.");
         
 
 

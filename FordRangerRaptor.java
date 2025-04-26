@@ -1,22 +1,33 @@
 public class FordRangerRaptor {
-    double dimensiones;
-    double velocidadMax;
-    double capCarga;
-    double potenciaMotor;
-    String color;
-    int capPasajeros;
-    boolean gasolina;
-    String refaccion; 
-
-    FordRangerRaptor(double dim, double vel, double cCarga, double potMotor, String col, int capPas, boolean gas, String refac){
+    private double dimensiones;
+    private double velocidadMax;
+    private double capCarga;
+    private double potenciaMotor;
+    private String color;
+    private int capPasajeros;
+    private String refaccion;
+    Tanquegas tanqueGas;
+    
+    FordRangerRaptor(double dim, double vel, double cCarga, double potMotor, String col, int capPas, String refac){
         this.dimensiones = dim;
         this.velocidadMax = vel;
         this.capCarga = cCarga;
         this.potenciaMotor = potMotor;
         this.color = col;
         this.capPasajeros = capPas;
-        this.gasolina = gas;
         this.refaccion = refac;
+                
+    }
+
+    FordRangerRaptor(double dim, double vel, double cCarga, double potMotor, String col, int capPas, String refac, double capacidad, String tipo, int nivel){
+        this.dimensiones = dim;
+        this.velocidadMax = vel;
+        this.capCarga = cCarga;
+        this.potenciaMotor = potMotor;
+        this.color = col;
+        this.capPasajeros = capPas;
+        this.refaccion = refac;
+        this.tanqueGas = new Tanquegas(capacidad, tipo, nivel);
                 
     }
 

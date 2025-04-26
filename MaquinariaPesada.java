@@ -1,19 +1,20 @@
 public class MaquinariaPesada {
-    String nombre;
-    String color;
-    String modelo;
-    double ancho;
-    double largo;
-    double alto;
-    boolean equipamiento;
-    boolean sistemaRodaje;
-    double pesoMaq;
-    double pesoOperar;
-    double potenciaMotor;
-    double capCombus;
+    private String nombre;
+    private String color;
+    private String modelo;
+    private double ancho;
+    private double largo;
+    private double alto;
+    private boolean equipamiento;
+    private boolean sistemaRodaje;
+    private double pesoMaq;
+    private double pesoOperar;
+    private double potenciaMotor;
+    Tanquegas tanqueGas;
+       
     
 
-    MaquinariaPesada(String nom, String col, String mod, double anc, double lar, double alt, boolean equi, boolean sis, double pesMaq, double pesOp, double potMot, double capCom){
+    MaquinariaPesada(String nom, String col, String mod, double anc, double lar, double alt, boolean equi, boolean sis, double pesMaq, double pesOp, double potMot){
         this.nombre = nom;
         this.color = col;
         this.modelo = mod;
@@ -25,7 +26,7 @@ public class MaquinariaPesada {
         this.pesoMaq = pesMaq;
         this.pesoOperar = pesOp;
         this.potenciaMotor = potMot;
-        this.capCombus = capCom;
+        
         
     }
 
