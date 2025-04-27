@@ -10,7 +10,7 @@ public class MaquinariaPesada {
     private double pesoMaq;
     private double pesoOperar;
     private double potenciaMotor;
-    Tanquegas tanqueGas;
+    
        
     
 
@@ -25,11 +25,11 @@ public class MaquinariaPesada {
         this.sistemaRodaje = sis;
         this.pesoMaq = pesMaq;
         this.pesoOperar = pesOp;
-        this.potenciaMotor = potMot;
-        
+        this.potenciaMotor = potMot;                
         
     }
 
+   
     void empujar(){
         System.out.println("La maquina " + nombre + " está empujando 10 ton, de las " + pesoOperar + " ton que tiene como capacidad de operar.");
     }

@@ -1,33 +1,62 @@
 public class Main {
     public static void main (String[] args) {
 
-        Edificio ed = new Edificio(9.5, 4, 10, "Calle Nuevo Léon", true, "Blanco", "Azul", 20);
+        Raptors [] raptors = {new Ranger(), new LoboR(), new Bronco()};
 
-        ed.almacenar();
-        ed.resguardar();
-        ed.operar();
+        for (int i = 0; i < raptors.length; i++) {
+            if (raptors[i] instanceof LoboR) {
+                System.out.println("La LoboR va a acelerar");
+                raptors[i].acelerar();
+            } else System.out.println("La " + raptors[i].getClass().getSimpleName() + " no hizo nada");
 
-        FordRangerRaptor frr = new FordRangerRaptor(5.20, 180, 600, 405, "negro", 5, "Neumatico de repuesto", 120, "Gasolina", 60);
+        }
 
-        frr.acelerar();
-        frr.saltar();
-        frr.mobilidad();
-        frr.recreacion();
-        frr.transporte();
+        raptors[0].setDimensiones(5.95);
+        raptors[0].setVelocidadMax(180);
+        raptors[0].setCapCarga(800);
+        raptors[0].setPotenciaMotor(405);
+        raptors[0].setColor("Blanco");
+        raptors[0].setCapPasajeros(5);
+        raptors[0].setRefaccion("Neumático");
+        /* raptors[0].setModelo("2025");
+        raptors[0].setKmRecorrido(120);
+        raptors[0].setTamañoRin(17); */
 
-        MaquinariaPesada maqPes = new MaquinariaPesada("excavadora", "amarilla", "Cat 320", 3.20, 9.5, 3.10, true, false, 7.45, 22, 157);
+        raptors[1].setDimensiones(6.20);
+        raptors[1].setVelocidadMax(200);
+        raptors[1].setCapCarga(1200);
+        raptors[1].setPotenciaMotor(750);
+        raptors[1].setColor("Negro");
+        raptors[1].setCapPasajeros(5);
+        raptors[1].setRefaccion("Neumático");
+        /* raptors[0].setModelo("2025");
+        raptors[0].setKmRecorrido(120);
+        raptors[0].setTamañoRin(17); */
 
-        maqPes.empujar();
-        maqPes.excavar();
-        maqPes.nivelar();
-        maqPes.demoler();
-        maqPes.arrastrar();
+        raptors[2].setDimensiones(5.00);
+        raptors[2].setVelocidadMax(180);
+        raptors[2].setCapCarga(450);
+        raptors[2].setPotenciaMotor(410);
+        raptors[2].setColor("Rojo");
+        raptors[2].setCapPasajeros(5);
+        raptors[2].setRefaccion("Neumático");
+        /* raptors[0].setModelo("2025");
+        raptors[0].setKmRecorrido(120);
+        raptors[0].setTamañoRin(17); */     
+        
+        System.out.println("  ");
+        System.out.println("La " + raptors[0].getClass().getSimpleName() + " Raptor tiene una dimensión de " + raptors[0].getDimensiones() + " metros de largo.");
+        System.out.println("La " + raptors[1].getClass().getSimpleName() + " Raptor tiene una dimensión de " + raptors[1].getDimensiones() + " metros de largo.");
+        System.out.println("La " + raptors[2].getClass().getSimpleName() + " Raptor tiene una dimensión de " + raptors[2].getDimensiones() + " metros de largo.");
 
+            
+        
+        
 
+            
 
-        frr.tanqueGas.setNivel(100);
-        int estadoTan = frr.tanqueGas.getNivel();
-        System.out.println("Tiene " + estadoTan + " litros de gasolina.");
+        
+
         
 
 

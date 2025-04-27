@@ -1,14 +1,14 @@
-public class Tanquegas{
+public class TanqueGas{
     private double capacidad;
     private String tipo;
     private int nivel;
 
-    Tanquegas(){}
+    TanqueGas(){}
 
-    Tanquegas(double cap, String tip, int niv){
-        this.capacidad = cap;
-        this.tipo = tip;
-        this.nivel = niv;
+    TanqueGas(double capacidad, String tipo, int nivel){
+        this.capacidad = capacidad;
+        this.tipo = tipo;
+        this.nivel = nivel;
     }
     
     public double getCapacidad() {
