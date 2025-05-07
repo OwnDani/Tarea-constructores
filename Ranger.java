@@ -17,6 +17,10 @@ public class Ranger extends Raptors {
     void transporte(){        
         System.out.println("La Ranger Raptor transporta su limite de carga en bultos de cemento.");
     }
+    void transporte(String carga, int peso){
+        System.out.println("La Ranger Raptor transporta " + peso + " kilos de " + carga + ".");
+    }
+
 
     public String getModelo() {
         return this.modelo;

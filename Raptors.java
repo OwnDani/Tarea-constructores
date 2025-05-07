@@ -74,6 +74,10 @@ public class Raptors{
         System.out.println("VROOOOM BROOOUUM");
     }
 
+    void acelerar(double time){
+        System.out.println("La Raptor hizo el 0 a 100 en " + time + " segundos ");
+    }
+
     void saltar(){
         System.out.println("La Raptor saltó por su velocidad máxima que es de " + velocidadMax + " km/h.");
     } 

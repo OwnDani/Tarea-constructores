@@ -16,6 +16,9 @@ public class Bronco extends Raptors {
     void campo(){        
         System.out.println("La Bronco Raptor se desenvuelve bien en terrenos rocosos");
     }
+    void campo(String terre){
+        System.out.println("La Bronco Raptor está atravesando un terreno " + terre + ", la cual se desenvuelve bien.");
+    }
 
     public String getModelo() {
         return this.modelo;

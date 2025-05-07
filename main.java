@@ -30,7 +30,7 @@ public class Main {
         raptors[1].setCapPasajeros(5);
         raptors[1].setRefaccion("Neumático");
         /* raptors[0].setModelo("2025");
-        raptors[0].setKmRecorrido(120);
+        raptors[0].setKmRecorrido(0);
         raptors[0].setTamañoRin(17); */
 
         raptors[2].setDimensiones(5.00);
@@ -41,8 +41,8 @@ public class Main {
         raptors[2].setCapPasajeros(5);
         raptors[2].setRefaccion("Neumático");
         /* raptors[0].setModelo("2025");
-        raptors[0].setKmRecorrido(120);
-        raptors[0].setTamañoRin(17); */     
+        raptors[0].setKmRecorrido(100);
+        raptors[0].setTamañoRin(18); */     
         
         System.out.println("  ");
         System.out.println("La " + raptors[0].getClass().getSimpleName() + " Raptor tiene una dimensión de " + raptors[0].getDimensiones() + " metros de largo.");
